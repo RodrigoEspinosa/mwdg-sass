@@ -1,53 +1,45 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>mwdg sass</title>
-        <meta name="description" content="">
+        <title>CSS Preprocessors - SASS | Montevideo Web Design Group</title>
+        <meta name="description" content="CSS Preprocessors - SASS | Montevideo Web Design Group">
+        <meta name="author" content="Rodrigo Espinosa">
         <meta name="viewport" content="width=device-width">
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <!-- build:css(.tmp) styles/main.css -->
+        <!-- build:css(.tmp) styles/main.scss -->
         <link rel="stylesheet" href="styles/main.css">
         <!-- endbuild -->
     </head>
     <body>
-        <!--[if lt IE 10]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+        <header>
+            <h1>
+                CSS Preprocessors - SASS |
+                Montevideo Web Design Group
+            </h1>
+        </header>
+        <div id="main">
+            <h4>Last cupcake news</h4>
+            <section class="news">
+                <article>
+                    Cupcake ipsum dolor. Sit amet chocolate bar dragée candy canes. Sesame snaps lemon drops marshmallow I love gingerbread bonbon jelly muffin carrot cake.
+                </article>
+                <article>
+                    Sweet cheesecake cheesecake powder topping ice cream tootsie roll donut. I love biscuit oat cake I love. Pie applicake pastry dessert oat cake liquorice. Gummies I love pudding tart applicake candy canes.
 
-
-        <div class="hero-unit">
-          <h1>'Allo, 'Allo!</h1>
-          <p>You now have</p>
-          <ul>
-            <li>HTML5 Boilerplate</li>
-
-          </ul>
+                </article>
+                <article>
+                    Fruitcake cupcake icing oat cake cookie jelly-o pastry pie carrot cake. Toffee I love unerdwear.com bonbon. Cotton candy cheesecake halvah.
+                </article>
+            </section>
+            <img src="images/pink_muffin.png" class="muffin">
         </div>
-
-
-        <!-- build:js scripts/vendor.js -->
-        <!-- bower:js -->
-        <script src="bower_components/jquery/jquery.js"></script>
-        <!-- endbower -->
-        <!-- endbuild -->
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
-
-        <!-- build:js scripts/main.js -->
-        <script src="scripts/main.js"></script>
-        <!-- endbuild -->
-</body>
+        <footer>
+            <p>
+                <strong>CSS Preprocessors - Sass</strong> by <a href="http://twitter.com/espinosacurbelo">@espinosacurbelo</a>
+                <br><br>
+                2014 &copy; <strong>Montevideo Web Design Group</strong> - Montevideo, Uruguay
+            </p>
+        </footer>
+    </body>
 </html>
