@@ -1,9 +1,11 @@
-* {
-    box-sizing: border-box;
+*{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 $smoke: #f6f6f6;
-$dark: #666;
+$dark: #333;
 
 body {
     background: #fafafa;
@@ -13,7 +15,7 @@ body {
     padding: 0;
 }
 
-header {
+header{
     background: $dark;
     padding: 100px;
 
@@ -58,5 +60,3 @@ header {
         top: 50px;
     }
 }
-
-@import "footer";
